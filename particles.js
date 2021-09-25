@@ -92,16 +92,7 @@ function animateParticleSystem() {
     requestAnimationFrame(animateParticleSystem);
     ctx.clearRect(0, 0, width, height);
     if(isMouseDown) addParticles();
-  /*
-    foodPoints.forEach(function(food) {
-      ctx.fillStyle = "red";  //Particle color
-      ctx.beginPath();
-      ctx.arc(food[0], 100, 5, 0, Math.PI*2, false); 
-      ctx.closePath();
-      ctx.stroke();
-      ctx.fill();  
-    })
-  */
+
     particleCollection.forEach(function(particle_){
   
       //The particles are supposed to have a specific behaviour. Couldn't figure out quick how to do with less code.. 
