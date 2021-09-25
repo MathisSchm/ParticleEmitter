@@ -129,7 +129,6 @@ function animateParticleSystem() {
   
 
   function addParticles() {
-    var m = mouse;
    
     if(particleCollection.length >= particleCount){
       particleCollection.shift();
@@ -142,9 +141,9 @@ function animateParticleSystem() {
         particle.vy = Math.random() * 10;
         particle.vx = 0;
         particle.radius = Math.max(2, Math.random() * 5);
-        particle.x = m.x;
+        particle.x = mouse.x;
         particle.movable = true;
-        particle.y = m.y;
+        particle.y = mouse.y;
         particle.lockX = false;
         particle.lockY = false;
         particle.bounceCount = 0;
