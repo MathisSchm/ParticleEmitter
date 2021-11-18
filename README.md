@@ -1,5 +1,5 @@
 # ParticleEmitter
 ## About
-Just simple falling circles for the web using JS that I couldn't find on the net and wanted to create.
+Just simple falling circles for the web using JS
 ![](exampleParticles.gif)  
 
